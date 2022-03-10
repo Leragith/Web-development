@@ -1,3 +1,4 @@
-<?
-header("Content-Type: text/plain");
-$_GET[];
+<?php
+  $str = $_GET['text'];
+  echo trim($str," ");
+?>
