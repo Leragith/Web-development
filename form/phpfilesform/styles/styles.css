@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/*     form      */
+.form-section {
+    display: flex;
+}
+
+.form-wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-image {
+    width: 330px;
+    height: 297px;
+}
+
+.form-header {
+    margin-top: 1.5px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 120%;
+    /* identical to box height, or 25px */
+}
+
+.form-input {
+    margin: 6px 0 6px 0;
+    width: 480px;
+    height: 64px;
+    border: 1.34888px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-left: 28px;
+}
+.form-input__text {
+    font-family: 'Montserrat',serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    font-size: 18px;
+    color: #757575;
+    margin-top: 16px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.form-input__text__select {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.8844px;
+    line-height: 27px;
+    color: #444444;
+
+}
+
+
+.form-input__select:hover {
+    background: #F1F1F1;
+}
+
+.form-input:hover {
+    background: #F1F1F1;
+   /* border-color: #ee5858;*/
+}
+
+.select-wrap {
+    display: block;
+    width: 100%;
+}
+
+.checkbox-style {
+    display: flex;
+    margin: 24px 0 28px 75px;
+}
+
+.box-style {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #adb5bd;
+    border-radius: 4px;
+    background: #EE58B6;
+}
+
+.box-text {
+    margin-top: 6px;
+    margin-bottom: auto;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 139% */
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.submit-style {
+    padding-top: 5px;
+    margin-left: 81px;
+    width: 480px;
+    height: 64px;
+    border-radius: 5.39553px;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    color: white;
+
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+/*  end of form  */
